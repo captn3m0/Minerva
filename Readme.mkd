@@ -1,0 +1,11 @@
+Minerva is a simple ebook scanning system, which uses amazon's Product Search API along with google book search to generate metadata for each book.
+
+The data is stored using [RedBeans][1], which includes support for mysql,postgre and sqlite.
+
+The entire script is written using PHP.
+
+This could be useful in instances where you need to scan ebooks and generate metadata (for eg custom Lucene engines)
+
+Also uses the [cloudfusion Product Advertising API][2] for amazon.
+[1]: http://www.rebeanphp.com
+[2]: https://github.com/cloudfusion/cloudfusion
