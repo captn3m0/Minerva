@@ -7,5 +7,11 @@ The entire script is written using PHP.
 This could be useful in instances where you need to scan ebooks and generate metadata (for eg custom Lucene engines)
 
 Also uses the [cloudfusion Product Advertising API][2] for amazon.
+
+##Instructions
+* Run ''git submodule update'' to get the amazon apis
+* Set configuration settings in config.php
+* Run ./indexer.php
+ 
 [1]: http://www.rebeanphp.com
 [2]: https://github.com/cloudfusion/cloudfusion
